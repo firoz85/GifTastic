@@ -1,0 +1,114 @@
+body {
+  background-color: #fff;
+}
+.animalButton {
+  padding: 10px 20px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4286f4;
+  border: none;
+  border-radius: 15px;
+  display: inline;
+  margin: 5px 5px;
+}
+
+.animalButton:hover {
+  background-color: #4286f4
+}
+
+.animalButton:active {
+  background-color: #41c4f4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#gifPanel {
+  margin: 10px 0px 0px 0px;
+}
+
+.animalGif {
+  margin: 20px 20px 0px 0px;
+  float: left;
+  position: relative;
+  background-color: #41c4f4;
+}
+
+.animalGif:hover {
+  background-color: #41f45e;
+}
+
+.animalGif h2 {
+  font-size: 15px;
+  color: #72a1d3;
+  text-align: center;
+  position: relative;
+  top: -3px;
+  color: #fff;
+}
+
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	
+	.container {
+		width: 94%;
+	}
+
+	.jumbotron {
+		width: 94%;
+		padding: 1% 4%;
+		margin: 0px 0px 5px 5px;
+		
+	}
+  .row {
+		width: 94%;
+				
+  }
+  
+}
+
+/* for 768px or less */
+@media screen and (max-width: 768px) {
+  .container {
+		width: 94%;
+	}
+
+	.jumbotron {
+		width: 94%;
+		padding: 1% 4%;
+		margin: 0px 0px 5px 5px;
+		
+	}
+  .row {
+		width: 94%;
+				
+  }
+
+}
+
+/* for 640px or less */
+@media screen and (max-width: 640px) {
+
+	.container {
+		width: 94%;
+	}
+
+	.jumbotron {
+		width: 94%;
+		padding: 1% 4%;
+		margin: 0px 0px 5px 5px;
+		
+	}
+  .row {
+		width: 94%;
+				
+  }
+
+}
+
